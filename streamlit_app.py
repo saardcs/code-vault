@@ -1,5 +1,16 @@
 import streamlit as st
 
+# Sidebar with QR code
+st.sidebar.header("Scan This QR Code to View Menu Online")
+
+qr_link = "https://code-vault.streamlit.app"  # Replace with your actual URL
+qr = qrcode.make(qr_link)
+buf = io.BytesIO()
+qr.save(buf)
+buf.seek(0)
+
+st.sidebar.image(buf, width=300, caption=qr_link)
+
 st.set_page_config(page_title="Code Vault", page_icon="🔐")
 
 st.title("🔐 Code Vault Challenge")
