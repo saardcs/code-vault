@@ -21,20 +21,20 @@ st.write("Enter the 5 code numbers you've calculated to try and unlock the vault
 
 # Define correct answers (based on your worksheet)
 correct_answers = {
-    1: 1000,   # 10 x 10 x 10
-    2: 358800, # 26 x 25 x 24 x 23
-    3: 300,    # 6 x 5 x 10
-    4: 24,     # 4 x 3 x 2
-    5: 60      # 5 x 4 x 3
+    1: 30240,      # 10 x 9 x 8 x 7 x 6
+    2: 1413720,    # 36 x 35 x 34 X 33
+    3: 1679616,    # 36 x 36 x 36 X 36
+    4: 311875200,  # 52 x 51 x 50 x 49 x 48
+    5: 53459728320 # 62 x 61 x 60 x 59 X 58 x 57
 }
 
 # Mapping from number to letter
 code_map = {
-    60: "C",
-    24: "O",
-    300: "D",
-    1000: "E",
-    358800: "!"
+    1679616: "C",
+    1413720: "O",
+    30240: "D",
+    311875200: "E",
+    53459728320: "!"
 }
 
 user_inputs = {}
