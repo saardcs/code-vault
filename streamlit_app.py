@@ -1,4 +1,6 @@
 import streamlit as st
+import qrcode
+import io
 
 # Sidebar with QR code
 st.sidebar.header("Scan This QR Code to View Menu Online")
