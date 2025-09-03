@@ -1,19 +1,75 @@
-# 🎈 Blank app template
+# 🔐 Code Vault Challenge – Worksheet
 
-A simple Streamlit app template for you to modify!
+### Instructions:
+For each of the 5 puzzles below, calculate the **total number of possible combinations** that match the given restrictions.  
+Once you've solved all five, enter your answers into the [**Code Vault app**](https://code-vault.streamlit.app) to try and unlock it!
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+This activity is designed for **Mathayom 1–3 students** to practice combination and permutation logic.
 
-### How to run it on your own machine
+---
 
-1. Install the requirements
+### 1. Five-Character Code
 
-   ```
-   $ pip install -r requirements.txt
-   ```
+**Restrictions:**
 
-2. Run the app
+- Numbers only (`0–9`)
+- No repeated characters
 
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+**Hint:**  
+How many ways can you choose and arrange 5 different numbers from 10?
+
+---
+
+### 2. Four-Character Code
+
+**Restrictions:**
+
+- Numbers (`0–9`) and lowercase letters (`a–z`)
+- No repeated characters
+
+**Hint:**  
+How many total characters are available? Then multiply decreasing values (no repeats).
+
+---
+
+### 3. Four-Character Code
+
+**Restrictions:**
+
+- Numbers (`0–9`) and uppercase letters (`A–Z`)
+- Characters **can repeat**
+
+**Hint:**  
+How many total characters are available? How many choices per position if repetition is allowed?
+
+---
+
+### 4. Five-Character Code
+
+**Restrictions:**
+
+- Uppercase and lowercase letters only (`A–Z`, `a–z`)
+- No repeated characters
+
+**Hint:**  
+How many letters in total? Multiply decreasing choices for each position.
+
+---
+
+### 5. Six-Character Code
+
+**Restrictions:**
+
+- Numbers, uppercase letters, and lowercase letters
+- No repeated characters
+
+**Hint:**  
+Use the full set of characters (numbers + letters), and multiply decreasing values.
+
+---
+
+## ✅ Once You’re Done:
+
+Go to the [**Code Vault app**](https://code-vault.streamlit.app), enter your 5 answers into the form, and see if you can **unlock the vault**!
+
+🎉 Good luck, Puzzle Hero!
