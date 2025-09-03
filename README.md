@@ -37,7 +37,6 @@ How many total characters are available? Then multiply decreasing values (no rep
 **Restrictions:**
 
 - Numbers (`0–9`) and uppercase letters (`A–Z`)
-- Characters **can repeat**
 
 **Hint:**  
 How many total characters are available? How many choices per position if repetition is allowed?
