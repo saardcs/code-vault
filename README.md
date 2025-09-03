@@ -12,6 +12,8 @@ This activity is designed for **Mathayom 1–3 students** to practice combinatio
 
 **Restrictions:**
 
+![5-character code](images/5char.png)
+
 - Numbers only (`0–9`)
 - No repeated characters
 
@@ -21,6 +23,8 @@ How many ways can you choose and arrange 5 different numbers from 10?
 ---
 
 ### 2. Four-Character Code
+
+![4-character code](images/4char.png)
 
 **Restrictions:**
 
@@ -34,6 +38,8 @@ How many total characters are available? Then multiply decreasing values (no rep
 
 ### 3. Four-Character Code
 
+![4-character code](images/4char.png)
+
 **Restrictions:**
 
 - Numbers (`0–9`) and uppercase letters (`A–Z`)
@@ -45,6 +51,8 @@ How many total characters are available? How many choices per position if repeti
 
 ### 4. Five-Character Code
 
+![5-character code](images/5char.png)
+
 **Restrictions:**
 
 - Uppercase and lowercase letters only (`A–Z`, `a–z`)
@@ -55,7 +63,9 @@ How many letters in total? Multiply decreasing choices for each position.
 
 ---
 
-### 5. Six-Character Code
+### 5. Five-Character Code
+
+![5-character code](images/5char.png)
 
 **Restrictions:**
 
