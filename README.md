@@ -51,7 +51,7 @@ streamlit run streamlit-app.py
 ## File Structure
 ```plaintext
 /code-vault
-├── app.py              # Main Streamlit app
+├── streamlit-app.py              # Main Streamlit app
 ├── worksheet.md        # Companion worksheet for students
 ├── images/             # Visual aids used in worksheet
 │   ├── 4char.png
