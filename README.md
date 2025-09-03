@@ -38,17 +38,6 @@ The worksheet includes:
 - 5 challenge problems
 - Clear restrictions per puzzle
 - Hints for each problem
-- Encouragement to use logical multiplication
-
----
-
-## 🖼️ Visual Aids
-
-The app and worksheet include character-length images to help students visualize the codes:
-
-- `3char.png` – for 3-character codes  
-- `4char.png` – for 4-character codes  
-- `5char.png` – for 5-character codes  
 
 ---
 
@@ -64,8 +53,9 @@ streamlit run streamlit-app.py
 /code-vault
 ├── app.py              # Main Streamlit app
 ├── worksheet.md        # Companion worksheet for students
-├── 4char.png           # Visual aid for 4-character codes
-├── 5char.png           # Visual aid for 5-character codes
+├── images/             # Visual aids used in worksheet
+│   ├── 4char.png
+│   └── 5char.png
 ```
 ---
 
