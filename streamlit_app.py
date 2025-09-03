@@ -5,7 +5,7 @@ import io
 st.set_page_config(page_title="Code Vault", page_icon="🔐")
 
 # Sidebar with QR code
-st.sidebar.header("Scan to View on Mobile")
+st.sidebar.header("Scan the QR Code to View on Mobile")
 
 qr_link = "https://code-vault.streamlit.app"
 qr = qrcode.make(qr_link)
